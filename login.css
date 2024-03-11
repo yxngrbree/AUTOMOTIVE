@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    color: #fff;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border: 5px solid #333;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.wrapper:hover{
+    border: 5px solid #00d0ff;
+    box-shadow: 0 0 20px  #00d0ff , inset 0 0 20px  #00d0ff;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    transition: .5s;
+}
+
+.wrapper:hover h2{
+color: #00d0ff;
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;  
+    background: transparent;  
+    border: 2px solid #333;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 10px 0 35px;
+    transition: .5s;
+}
+
+.wrapper:hover .input-box input{
+    border:2px solid #00d0ff;
+    box-shadow: 0 0 10px, inset 0 0 10px #00d0ff;
+}
+
+.input-box input::placeholder{
+    color: rgba(255, 255, 255, .3);
+}
+
+.input-box .icon{
+position: absolute;
+left: 10px;
+color: #fff;
+font-size: 1.2em;
+line-height: 55px;
+top: 15;
+transition: .5s;
+}
+
+.wrapper:hover .input-box .icon{
+    color: #00d0ff;
+}
+
+.forgpass{
+    margin: -15px 0 15px;
+}
+
+.forgpass a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .9em;
+}   
+
+.forgpass a:hover{
+    text-decoration: underline;
+}
+
+button{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #333;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    transition:.5s;
+
+}
+
+.wrapper:hover button{
+    background: #00d0ff;
+    color: #111;
+    box-shadow: 0 0 20px #00d0ff;
+}
+
+
+.register{
+    font-size: .9em;
+    text-align: center ;
+    margin: 25px 0;
+}
+
+.register{
+    color: #fff;
+}
+
+.register p a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.wrapper:hover .register p a{
+    color: #00d0ff;
+    
+}
+
+register p a:hover{
+text-decoration: underline;
+}
+
+button a{
+    text-decoration: none;
+    color:#fff;
+}
+
