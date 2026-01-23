@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Automotive</h1>
 
-<p id="description">eCommerce website for vechiles 1.0</p>
+<p id="description">eCommerce website for vechiles</p>
 
   
   
